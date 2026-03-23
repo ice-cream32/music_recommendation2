@@ -75,6 +75,7 @@
 
 * 数据集名称：**Yandex Music Dataset**
 * 发布平台：RecSys Challenge / Academic Dataset
+* 发布网址：https://huggingface.co/datasets/yandex/yambda
 * 数据类型：
 
   * 用户行为序列（listen / like / skip 等）
@@ -96,18 +97,6 @@
    * 由 CNN 模型提取
    * 维度为 128
    * 用于增强内容理解能力
-
----
-
-#### ⚙️ 数据预处理
-
-在使用数据前，进行了如下处理：
-
-* 🔹 按时间排序构建用户行为序列  
-* 🔹 去除异常数据与缺失值  
-* 🔹 构建训练 / 验证 / 测试划分  
-* 🔹 生成负采样候选集（1 vs 999）  
-* 🔹 统计物品流行度用于分析  
 
 ---
 
